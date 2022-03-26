@@ -1,5 +1,4 @@
-import tw from 'twin.macro';
-import styled from '@emotion/styled';
+import tw, { styled } from 'twin.macro';
 
 export const MoviesContainer = styled.div`
   ${tw`
@@ -13,6 +12,7 @@ export const MoviesTitle = styled.h2`
       font-bold
       uppercase
       mx-8
+      text-white
     `}
 `;
 

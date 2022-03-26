@@ -21,8 +21,8 @@ function Nav() {
 
   return (
     <NavContainer dark={dark}>
-      <img src="/public/netflix-logo.png" alt="Netflix" />
-      <img src="/public/user-avatar.png" alt="Avatar" />
+      <img src="/netflix-logo.png" alt="Netflix" />
+      <img src="/user-avatar.png" alt="Avatar" />
     </NavContainer>
   );
 }

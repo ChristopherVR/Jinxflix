@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
 import axios from 'axios';
 import Header from './Header';
 import Nav from './Nav';
@@ -13,7 +12,7 @@ function Home() {
 
   useEffect(() => {
     const getMovie = async () => {
-      const response = await axios.get(`${moviedb.URL}/movie/550`, {
+      const response = await axios.get(`${moviedb.URL}/movie/200`, {
         params: {
           api_key: moviedb.API_KEY,
         },
@@ -24,13 +23,13 @@ function Home() {
   }, []);
   if (!movie) return <Loading />;
   return (
-    <div className="app">
+    <>
       <Nav />
       <Header movie={movie} />
       {moviedb.endpoints.map((endpoint) => (
-        <Row title={endpoint.name} path={endpoint.path} />
+        <Row key={endpoint.name} title={endpoint.name} path={endpoint.path} />
       ))}
-    </div>
+    </>
   );
 }
 

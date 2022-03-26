@@ -1,12 +1,10 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 import tw, { styled } from 'twin.macro';
-import 'styled-components/macro';
 import Movie from './types/Movie';
 
 export const HeaderContainer = styled.div`
   ${tw`
     p-8
+    text-white
   `}
   height: 80vh;
   background-size: cover !important;
@@ -44,6 +42,7 @@ export const HeaderButton = styled.button`
     px-8
     py-2
     mr-2
+    text-white
   `}
 
   background-color: rgba(51, 51, 51, 0.5);

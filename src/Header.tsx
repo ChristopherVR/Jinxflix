@@ -5,6 +5,7 @@ import {
   HeaderDescription,
   HeaderTitle,
 } from './Header.styles';
+
 import Movie from './types/Movie';
 
 export type HeaderProps = {
@@ -13,7 +14,13 @@ export type HeaderProps = {
 
 function Header({ movie }: HeaderProps) {
   return (
-    <HeaderContainer background={movie.backdrop_path}>
+    <HeaderContainer
+      background={movie.backdrop_path}
+      name=""
+      poster_path=""
+      backdrop_path=""
+      overview=""
+    >
       <HeaderTitle>{movie.name}</HeaderTitle>
       <HeaderDescription>{movie.overview}</HeaderDescription>
       <HeaderButton>Play</HeaderButton>

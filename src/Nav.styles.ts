@@ -1,5 +1,4 @@
-import styled from '@emotion/styled';
-import tw from 'twin.macro';
+import tw, { styled } from 'twin.macro';
 import { NavContainerProps } from './Nav';
 
 const NavContainer = styled.div`
@@ -20,6 +19,7 @@ const NavContainer = styled.div`
   img {
     ${tw`
       h-8
+      mr-8
     `}
   }
 `;
