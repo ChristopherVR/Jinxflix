@@ -1,0 +1,128 @@
+html {
+  background-color: #111;
+}
+
+.login-body {
+  background: url('./images/login_main.jpg');
+  background-size: cover;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  min-height: 100vh;
+
+  & .form {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    margin-top: 2.5rem;
+    max-width: 35rem;
+    min-width: 35rem;
+    padding: 4rem 6rem;
+
+    & h1 {
+      color: white;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1.75rem;
+    }
+  }
+
+  & .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  & input {
+    background: #333;
+    border: 0;
+    border-radius: 0.25rem;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    padding: 0.75rem 0.75rem;
+    width: 85%;
+  }
+
+  & .submit-btn {
+    background: red;
+    border: 0;
+    border-radius: 0.25rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 3.5rem;
+    outline: none;
+    padding: 1.5rem;
+    width: 100%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-options {
+    color: #b3b3b3;
+    display: grid;
+    font-size: 1rem;
+    font-weight: 500;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 4rem;
+    margin-top: 1.25rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-need-help {
+    text-align: right;
+  }
+
+  & .fb {
+    align-items: center;
+    color: #b3b3b3;
+    display: grid;
+    font-size: 1rem;
+    grid-template-columns: min-content auto;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    & img {
+      height: 1.5rem;
+      margin-right: 1rem;
+      width: 200%;
+
+      & + span {
+        margin-left: 1.5rem;
+      }
+    }
+  }
+
+  &-new-to-nl {
+    color: #737373;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+  }
+
+  &-sign-up {
+    color: #fff;
+    margin-left: 1.5rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.google-captcha {
+  color: #8c8c8c;
+  font-size: 1rem;
+  margin-top: 1.25rem;
+}
+
+.learn-more {
+  color: blue;
+  margin-left: 0.5rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
