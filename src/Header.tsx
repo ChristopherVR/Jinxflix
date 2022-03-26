@@ -1,26 +1,24 @@
 import React from 'react';
+import {
+  HeaderButton,
+  HeaderContainer,
+  HeaderDescription,
+  HeaderTitle,
+} from './Header.styles';
+import Movie from './types/Movie';
 
-function Header() {
+export type HeaderProps = {
+  movie: Movie;
+};
+
+function Header({ movie }: HeaderProps) {
   return (
-    <header className="banner">
-      <div className="banner__contents">
-        <h1 className="banner__title">Ginny &amp; Georgia</h1>
-        <div className="banner__buttons">
-          <button type="button" className="banner__button">
-            Play
-          </button>
-          <button type="button" className="banner__button">
-            My List
-          </button>
-        </div>
-        <h1 className="banner__description">
-          Angsty and awkward fifteen year old Ginny Miller often feels more
-          mature than her thirty year old mother, the irresistible and dynamic
-          Georgia Miller...
-        </h1>
-      </div>
-      <div className="banner--fadeBottom" />
-    </header>
+    <HeaderContainer background={movie.backdrop_path}>
+      <HeaderTitle>{movie.name}</HeaderTitle>
+      <HeaderDescription>{movie.overview}</HeaderDescription>
+      <HeaderButton>Play</HeaderButton>
+      <HeaderButton>My List</HeaderButton>
+    </HeaderContainer>
   );
 }
 

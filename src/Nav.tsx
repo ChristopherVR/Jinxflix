@@ -1,19 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import NavContainer from './Nav.styles';
+
+export type NavContainerProps = {
+  dark: boolean;
+};
 
 function Nav() {
+  const [dark, setDark] = useState(false);
+
+  useEffect(() => {
+    const scroll = () => {
+      setDark(window.scrollY > 100);
+    };
+    window.addEventListener('scroll', scroll);
+
+    return () => {
+      window.removeEventListener('scroll', scroll);
+    };
+  }, []);
+
   return (
-    <div className="nav false">
-      <img
-        className="nav__logo"
-        src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
-        alt=""
-      />
-      <img
-        className="nav__avatar"
-        src="http://pngimg.com/uploads/netflix/netflix_PNG8.png"
-        alt=""
-      />
-    </div>
+    <NavContainer dark={dark}>
+      <img src="/public/netflix-logo.png" alt="Netflix" />
+      <img src="/public/user-avatar.png" alt="Avatar" />
+    </NavContainer>
   );
 }
 

@@ -15,7 +15,9 @@ const firebaseConfig: FirebaseOptions = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
-console.log(firebaseConfig);
+
+// eslint-disable-next-line no-console
+console.debug(firebaseConfig);
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const database = getDatabase(app);

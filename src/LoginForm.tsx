@@ -8,6 +8,7 @@ interface UserLogin {
   email: string;
   password: string;
 }
+
 function LoginForm() {
   const [credentials, setCredentials] = useState<UserLogin>({
     email: '',
@@ -77,10 +78,7 @@ function LoginForm() {
         </div>
         <div className="login-body__footer">
           <div className="login-body__fb">
-            <img
-              src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png"
-              alt="fb"
-            />
+            <img src="/public/fb.png" alt="fb" />
             <span>Login with Facebook</span>
           </div>
           <div className="login-body__new-to-nl">
