@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="MovieShowcaseSPA/ClientApp/public/logo512.png" alt="React Logo" width="80px" height="80px">
+  <img src="public/logo512.png" alt="React Logo" width="80px" height="80px">
 </p>
 <h1 align="center"> A Netflix clone </h1>
 <h3 align="center"> A combination of libraries and frameworks integrated to showcase using React as the frontend to create a basic Netflix-like user interface </h3>  
