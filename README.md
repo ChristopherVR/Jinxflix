@@ -20,7 +20,7 @@
   </ol>
 </details>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://github.com/ChristopherVR/ChristopherVR/blob/main/rainbow.png)
 
 <!-- ABOUT THE PROJECT -->
 <h2 id="about-the-project"> :pencil: About The Project</h2>
@@ -29,7 +29,7 @@
   This project aims to integrate libraries (Create React App template with TypeScript, Tailwind, SASS) to demonstrate a basic netflix-like user inteface dedicated to my cat Jinx.
 </p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://github.com/ChristopherVR/ChristopherVR/blob/main/rainbow.png)
 
 <!-- PREREQUISITES -->
 <h2 id="prerequisites"> :fork_and_knife: Prerequisites</h2>
@@ -54,7 +54,7 @@ The following open source packages are used in this project:
 * Human Activity Recognition documentation
 * React-select documentation
  
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://github.com/ChristopherVR/ChristopherVR/blob/main/rainbow.png)
 
 <!-- :paw_prints:-->
 <!-- FOLDER STRUCTURE -->
@@ -120,7 +120,7 @@ The following open source packages are used in this project:
             twin.d.ts
  
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://github.com/ChristopherVR/ChristopherVR/blob/main/rainbow.png)
 
 <!-- SETUP -->
 <h2 id="setup"> :floppy_disk: Setup</h2>
@@ -145,7 +145,7 @@ npm lint  // check for any linting issues
 
 </p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://github.com/ChristopherVR/ChristopherVR/blob/main/rainbow.png)
 
 <!-- ROADMAP -->
 <h2 id="config"> :dart: Config</h2>
@@ -158,5 +158,5 @@ For the SPA project the following app settings needs to be configured (by creati
 
 </p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://github.com/ChristopherVR/ChristopherVR/blob/main/rainbow.png)
 
